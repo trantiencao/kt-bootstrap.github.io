@@ -22,13 +22,14 @@
         <!-- HEADER -->
         <div class="header bg-danger mt-1 mb-1">
             <div class="row">
-                <div class="col-sm-4">
-                    <img src="../TAINGUYEN/logo.png" alt="" class="logo w-100 h-auto d-block">
-                </div>
+
                 <div class="col-sm-5 text-white mt-2 text-center">
-                    <h3>QUẢN LÝ BÁN Ổ CỨNG<br>SSD SAMSUNG</h3>
+                    <img src="../TAINGUYEN/logo.png" alt="" class="logo w-50 h-auto float-left">
+                    <h5 style="float: right;">QUẢN LÝ BÁN Ổ CỨNG<br>SSD SAMSUNG</h5>
                 </div>
-                <div class="col-sm-3 navbar navbar-expand-sm bg-danger navbar-dark d-block mx-auto w-75 h-auto">
+                <div class="col-sm-2">
+                </div>
+                <div class="col-sm-5 navbar navbar-expand-sm bg-danger navbar-dark d-block mx-auto w-75 h-auto">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#subNavbarLogin">
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" role="img" focusable="false">
                             <path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path>
@@ -37,12 +38,118 @@
                     <div class="collapse navbar-collapse" id="subNavbarLogin">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item">
-                                <a href="#" class="nav-link text-white">Đăng nhập</a>
+                                <input type="text" placeholder="Username">
+                                <input type="password" placeholder="Password" name="psw" required>
+                                <button class="btn btn-success ml-3 bg-danger" type="submit">Đăng nhập</button>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link text-white">Đăng ký</a>
+                                <input type="text" placeholder="New Username">
+                                <input type="password" placeholder="Password" name="psw" required>
+                                <button class="btn btn-success ml-3 bg-danger" type="submit">Đăng Ký</button>
                             </li>
                         </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- BANNER -->
+        <div class="banner">
+            <div class="row">
+                <div class="col-sm-12 mt-2 text-center text-light bg-danger">
+                    <h1>QUẢN LÝ BÁN Ổ CỨNG SSD SAMSUNG</h1>
+                </div>
+            </div>
+        </div>
+
+        <!-- MEMU CHÍNH & TÌM KIẾM  -->
+        <div class="menu mt-2 mb-2">
+            <div class="row">
+                <div class="col-sm-12 navbar navbar-expand-sm bg-danger navbar-dark d-block mx-auto w-100 h-auto">
+                    <button class="navbar-toggler float-left" type="button" data-toggle="collapse" data-target="#subNavbarMenu">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" role="img" focusable="false">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path>
+                        </svg>
+                    </button>
+                    <div class="collapse navbar-collapse float-left" id="subNavbarMenu">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Trang chủ</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sản phẩm</a>
+                                <div class="dropdown-content">
+                                    <a class="dropdown-item" href="#" id="submenu-Dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SSD Samsung 860 EVO</a>
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item">
+                                            <a class="dropdown-item" href="#">SSD Samsung 860 EVO 250GB</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="dropdown-item" href="#">SSD Samsung 860 EVO 500GB</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="dropdown-item" href="#">SSD Samsung 860 EVO 1TB</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="dropdown-item" href="#">SSD Samsung 860 EVO 2TB</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="dropdown-item" href="#">SSD Samsung 860 EVO 4TB</a>
+                                        </li>
+                                    </ul>
+
+                                    <a class="dropdown-item" href="#" id="submenu-Dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SSD Samsung 860 PRO</a>
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item">
+                                            <a class="dropdown-item" href="#">SSD Samsung 860 PRO 250GB</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="dropdown-item" href="#">SSD Samsung 860 PRO 500GB</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="dropdown-item" href="#">SSD Samsung 860 PRO 1TB</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="dropdown-item" href="#">SSD Samsung 860 PRO 2TB</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="dropdown-item" href="#">SSD Samsung 860 PRO 4TB</a>
+                                        </li>
+                                    </ul>
+
+                                    <a class="dropdown-item" href="#" id="submenu-Dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SSD Samsung 860 QVO</a>
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item">
+                                            <a class="dropdown-item" href="#">SSD Samsung 860 QVO 250GB</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="dropdown-item" href="#">SSD Samsung 860 QVO 500GB</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="dropdown-item" href="#">SSD Samsung 860 QVO 1TB</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="dropdown-item" href="#">SSD Samsung 860 QVO 2TB</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="dropdown-item" href="#">SSD Samsung 860 QVO 4TB</a>
+                                        </li>
+                                    </ul>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Thông tin</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.facebook.com/tiencao.78/">Liên hệ</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="form-inline justify-content-end">
+                        <input type="text" value="" autocomplete="off" placeholder=" Sản phẩm bạn muốn tìm..." class="input-group-field auto-search w-50">
+                        <button class="btn btn-success ml-3 bg-danger" type="submit">Tìm</button>
                     </div>
                 </div>
             </div>
@@ -51,13 +158,6 @@
         <!-- SLIDE -->
         <div class="slide mt-1 mb-1">
             <div class="row">
-                <div class="col-sm-5" style="line-height: 40px;">
-                    <p>Cung Cấp Ổ Cứng Samsung Chính Hãng Hiệu Suất Cực Cao.<br>Tương Thích Với Nhiều Dòng Laptop, PC.<br>Tiết Kiệm Điện. Độ Bền Vượt Trội.<br>Tư Vấn Miễn Phí. Bảo Hành Chính Hãng.<br>Hàng Chính Hãng. Giá Rẻ Nhất. Nhiều Quà Tặng.<br>Liên
-                        Hệ Ngay: SĐT <a href="tel:<b>+84327147158</b>"><b>+84 327147158</b></a> Hoặc Facebook
-                        <a href="https://www.facebook.com/tiencao.78/"><img src="https://scontent.fdad3-1.fna.fbcdn.net/v/t39.2365-6/89126182_222315695571651_4936319991919149056_n.svg?_nc_cat=1&amp;_nc_sid=ad8a9d&amp;_nc_ohc=VyjhrU76ZQcAX8nYeSE&amp;_nc_ht=scontent.fdad3-1.fna&amp;oh=d071c83966c85bc4663b08284c9723ba&amp;oe=5F35E66F"
-                                alt="Theo dõi trên Facebook" style="width:24px; height:auto; display:inline; margin-right:20px;"></a><br>Tư Vấn Tận Tình Chu Đáo. Cả 100% Khách Hàng Đều Hài Lòng. Ổ cứng SSD Samsung chính hãng bảo hành 5 năm 1 đổi 1.
-                        <br>Giao hàng miễn phí toàn quốc.</p>
-                </div>
                 <div class="col-sm-7">
                     <div id="demo" class="carousel slide" data-ride="carousel">
 
@@ -136,60 +236,18 @@
                         <a class="carousel-control-next" href="#demo" data-slide="next">
                             <span class="carousel-control-next-icon"></span>
                         </a>
-
                     </div>
+                </div>
+                <div class="col-sm-5 ml-auto" style="line-height: 40px;;">
+                    <p>Cung Cấp Ổ Cứng Samsung Chính Hãng Hiệu Suất Cực Cao.<br>Tương Thích Với Nhiều Dòng Laptop, PC.<br>Tiết Kiệm Điện. Độ Bền Vượt Trội.<br>Tư Vấn Miễn Phí. Bảo Hành Chính Hãng.<br>Hàng Chính Hãng. Giá Rẻ Nhất. Nhiều Quà Tặng.<br>Liên
+                        Hệ Ngay: SĐT <a href="tel:<b>+84327147158</b>"><b>+84 327147158</b></a> Hoặc Facebook
+                        <a href="https://www.facebook.com/tiencao.78/"><img src="https://scontent.fdad3-1.fna.fbcdn.net/v/t39.2365-6/89126182_222315695571651_4936319991919149056_n.svg?_nc_cat=1&amp;_nc_sid=ad8a9d&amp;_nc_ohc=VyjhrU76ZQcAX8nYeSE&amp;_nc_ht=scontent.fdad3-1.fna&amp;oh=d071c83966c85bc4663b08284c9723ba&amp;oe=5F35E66F"
+                                alt="Theo dõi trên Facebook" style="width:24px; height:auto; display:inline; margin-right:20px;"></a><br>Tư Vấn Tận Tình Chu Đáo. Cả 100% Khách Hàng Đều Hài Lòng. Ổ cứng SSD Samsung chính hãng bảo hành 5 năm 1 đổi 1.
+                        <br>Giao hàng miễn phí toàn quốc.</p>
                 </div>
             </div>
 
-            <!-- MEMU  -->
-            <div class="menu mt-2 mb-2">
-                <div class="row">
-                    <div class="col-sm-5 navbar navbar-expand-sm bg-danger navbar-dark d-block mx-auto w-100 h-auto">
-                        <button class="navbar-toggler float-left" type="button" data-toggle="collapse" data-target="#subNavbarMenu">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" role="img" focusable="false">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path>
-                            </svg>
-                        </button>
-                        <div class="collapse navbar-collapse" id="subNavbarMenu">
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Trang chủ</a>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sản phẩm</a>
-                                    <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="#">SSD Samsung 860 EVO</a>
-                                        <a class="dropdown-item" href="#">SSD Samsung 860 PRO</a>
-                                        <a class="dropdown-item" href="#">SSD Samsung 860 QVO</a>
-                                        <div class="dropdown-divider"></div>
-                                        <a class="dropdown-item" href="#">Something else here</a>
-                                    </div>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Thông tin</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="https://www.facebook.com/tiencao.78/">Liên hệ</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <iimg src="../TAINGUYEN/logo.png" width="200">
-                            <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#searchProduct">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" role="img" focusable="false">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path>
-                            </svg>
-                        </button>
-                    </div>
-                    <div class="col-sm-2">
-                    </div>
-                    <div class="col-sm-5 mt-2 mb-2" id="searchProduct">
-                        <form class="form-inline">
-                            <input type="text" value="" autocomplete="off" placeholder=" Sản phẩm bạn muốn tìm..." class="input-group-field auto-search w-75">
-                            <button class="btn btn-success ml-3 bg-danger" type="submit">Tìm</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
+
 
             <!-- NOI DUNG > danh sách sản phẩm < -->
             <div class="noi-dung mt-5 mb-1">
